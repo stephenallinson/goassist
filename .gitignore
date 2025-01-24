@@ -1,0 +1,54 @@
+# Go binary files
+/bin/
+/bin/*
+
+# Build artifacts
+*.exe
+*.exe~
+*.out
+*.test
+*.a
+*.o
+*.so
+
+# Vendor directory if using Go Modules
+/vendor/
+
+# Dependency directories (Gopkg)
+Gopkg.lock
+Gopkg.toml
+
+# IDE & OS-specific files
+.idea/
+.vscode/
+*.iml
+*.swp
+*.DS_Store
+Thumbs.db
+
+# Go Module files (if you use go modules)
+go.sum
+
+# Test result files
+*.log
+*.csv
+*.json
+
+# Temporary files created by the editor
+*.tmp
+*.log
+*.defer.json
+*.gc
+*.out
+
+# Coverage profile
+*.cov
+
+# Ignore Go workspace files
+workspace/
+
+# Ignore environment variable files
+.env
+
+# Ignore cache files
+cache/
